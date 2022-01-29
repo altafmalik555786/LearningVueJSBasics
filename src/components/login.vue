@@ -1,27 +1,20 @@
 <template>
-<div>
+  <div>
     <h1>Login</h1>
-</div>
+  </div>
 </template>
 
 <script>
 export default {
-    name: "Login",
+  name: "Login",
 
-    components: {
-        
+  components: {},
 
-    },
-
-    data() {
-        return {
-
-        }
-    }
-
-}
+  data() {
+    return {};
+  },
+};
 </script>
 
 <style scoped>
-
 </style>

@@ -8,19 +8,19 @@ import Login from './components/login.vue'
 import PageNotFound from './components/PageNotFound'
 const routes = [
     {
-    name: 'home',
-    path: '/',
-    component: home
+        name: 'home',
+        path: '/',
+        component: home
     },
     {
-    name: 'Profile',
-    path: '/profile/:name',
-    component: Profile
+        name: 'Profile',
+        path: '/profile/:name',
+        component: Profile
     },
     {
-    name: 'Login',
-    path: '/login',
-    component: Login
+        name: 'Login',
+        path: '/login',
+        component: Login
     },
     {
         name: 'NotFound',
